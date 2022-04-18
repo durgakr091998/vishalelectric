@@ -43,3 +43,18 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+var tl = new TimelineMax({ repeat: -1, yoyo: true, repeatDelay: 0.5 });
+tl.staggerFrom(
+  ".text",
+  0.5,
+  {
+    opacity: 0,
+    y: 200,
+    rotation: 360,
+    delay: 0.5,
+    scale: 2,
+    ease: Bounce.easeIn,
+  },
+  0.2
+);
