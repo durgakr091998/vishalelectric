@@ -1591,6 +1591,10 @@ iframe {
   section#contact {
     text-align: center;
   }
+  .custom-cursor {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 .btn {
