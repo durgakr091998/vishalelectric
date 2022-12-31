@@ -36,7 +36,9 @@ body {
 }
 .text{
   display: inline-block;
-  color: #fff;
+  /* color: #fff; */
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -7675,7 +7677,8 @@ h1 {
 @media (min-width:375px) and (max-width: 480px){
   .text-box {
     /* font-size: 29.5px; */
-    font-size: 33.5px;
+    /* font-size: 33.5px; */
+    font-size: 37.5px;
   }
 }
 @media (min-width:481px) and (max-width: 767px){
